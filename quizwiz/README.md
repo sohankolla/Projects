@@ -1,1 +1,0 @@
-# Simple quiz app to develop my skills with React
