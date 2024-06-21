@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(11, 12, 18);
+  color: rgb(51, 194, 242);
+  font-family: Karla;
+  margin: 0;
+  padding-inline: 10%;
+  padding-block: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p, h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 36.53px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.7px;
+  margin: 3%;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: center;
+}
+
+p {
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 500;
+  line-height: 12.39px;
+  text-align: center;
+}
+
+.titleScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleScreen button {
+  color: white;
+  width: 70%;
+  padding-block: 15px;
+  background: rgba(77, 91, 158, 1);
+  border-radius: 10px;
+  border-style: none;
+}
+
+.quizScreen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.quizScreen button {
+  color: white;
+  width: 25%;
+  padding-block: 15px;
+  background: rgba(77, 91, 158, 1);
+  border-radius: 10px;
+  border-style: none;
+  font-size: 0.9rem;
+  align-self: center;
+  cursor: pointer;
+  margin: 3%;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="radio"] {
+  width: 0;
+  opacity: 0;
+}
+
+
+label {
+  display: flex;
+  align-items: center; /* Centers text vertically within the label */
+  justify-content: center; /* Centers text horizontally within the label */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  height: 50px; /* Fixed height for uniformity */
+  width: 100%; /* Makes label expand to fill the grid column width */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.option {
+  background-color: rgb(107, 120, 133);
+}
+
+.selectedOption {
+  background-color: black;
+  border: 1px solid yellow;
+}
+
+.correct {    
+  color: greenyellow;
+  border: 1px solid greenyellow;
+}
+
+.wrong {
+  color: orangered;
+  border: 1px solid orangered;
+}
