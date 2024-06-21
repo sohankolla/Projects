@@ -1,2 +1,2 @@
 # Projects
-Repository for any projects I make or work on
+Repository for simpler projects I made or worked on
