@@ -1,5 +1,3 @@
-// APSC 143 Engineering Programming Project
-
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
